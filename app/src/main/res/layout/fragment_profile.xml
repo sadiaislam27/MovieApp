@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE8E8"
+    android:backgroundTint="#D6CCCC"
+    tools:context=".ui.ProfileFragment">
+
+    <TextView
+        android:id="@+id/text_pro2"
+        android:layout_width="222dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="@string/menu_profile"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_pro_frag" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_pro_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toTopOf="@+id/text_pro2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_pro"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/text_pro"
+        android:layout_width="334dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="#0B0C0D"
+        android:backgroundTint="#00BCD4"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="#0E1954"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="User Name:"
+        android:textColor="#9E1E1E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/text_pro2"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_pro_frag" />
+
+    <TextView
+        android:id="@+id/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Age :"
+        android:textColor="#0C9E12"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_name" />
+
+    <TextView
+        android:id="@+id/age_pro"
+        android:layout_width="212dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="Age"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toEndOf="@+id/user_age"
+        app:layout_constraintTop_toBottomOf="@+id/text_pro2" />
+
+    <TextView
+        android:id="@+id/user_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="189dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Phonr Number:"
+        android:textColor="#9111A7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_age" />
+
+    <TextView
+        android:id="@+id/phone_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="196dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/user_phone"
+        app:layout_constraintTop_toBottomOf="@+id/age_pro" />
+</androidx.constraintlayout.widget.ConstraintLayout>

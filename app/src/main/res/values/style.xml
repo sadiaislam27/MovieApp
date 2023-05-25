@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="customExposedStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="colorAccent">@color/black</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+</resources>

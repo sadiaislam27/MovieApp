@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="movie_app">Movie App</string>
+    <string name="home">HOME</string>
+    <string name="tv_shows">Tv Shows</string>
+    <string name="kids">Kids</string>
+    <string name="movies">Movies</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="log_out">Log out</string>
+    <string name="search_keyword">search keyword</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="theatre">Theatre</string>
+    <string name="select_city">Select city</string>
+
+    <string-array name="cities">
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+        <item>Chittagong</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Horror</item>
+         <item>Mystry</item>
+        <item>Romantic</item>
+    </string-array>
+
+
+    <string-array name="tvs">
+        <item>Comedy</item>
+        <item>mystry</item>
+        <item>Horror</item>
+        <item>Others</item>
+    </string-array>
+
+
+</resources>
